@@ -32,13 +32,13 @@ To run, you'll need to register your application.
    Add following permissions
    User.Read.All
    
-   **ChannelMessage.Send **
+   **ChannelMessage.Send**
    
-   **ChannelSettings.ReadWrite.All **
+   **ChannelSettings.ReadWrite.All**
    
-   **ChannelMember.ReadWrite.All **
+   **ChannelMember.ReadWrite.All**
    
-   **Channel.Create **
+   **Channel.Create**
    
    **Note: Since we are using client credentials provider for authorization, admin has to conset for permissions behalf of user**   
 
