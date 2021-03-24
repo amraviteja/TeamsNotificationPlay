@@ -11,6 +11,8 @@ Microsoft.Extensions.Configuration.Json ===> Version# 3.1.0
 Microsoft.Graph ===> Version# 3.25.0
 Microsoft.Graph.Auth ===> Version# 1.0.0-preview.6
 Microsoft.Identity.Client ===> Version# 4.27.0
+Microsoft.Graph.Auth ===> Version# 1.0.0-preview.6
+Microsoft.Identity.Client ===> Version# 4.27.0
 
 ## Build and run
 
