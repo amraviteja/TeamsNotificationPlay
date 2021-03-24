@@ -30,7 +30,9 @@ To run, you'll need to register your application.
    Choose **Save** at the top.
 6. Under **Manage** on the left-hand pane, click **API permissions** and then **Add a new permission**. Select **Microsoft Graph** and then **Delegated permissions**.
    Add following permissions
-   **User.Read.All**   
+   
+   **User.Read.All**
+   
    **ChannelMessage.Send**
    
    **ChannelSettings.ReadWrite.All**
