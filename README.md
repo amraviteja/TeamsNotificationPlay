@@ -30,11 +30,16 @@ To run, you'll need to register your application.
    Choose **Save** at the top.
 6. Under **Manage** on the left-hand pane, click **API permissions** and then **Add a new permission**. Select **Microsoft Graph** and then **Delegated permissions**.
    Add following permissions
-   1. User.Read.All
-   2. ChannelMessage.Send
-   3. ChannelSettings.ReadWrite.All
-   4. ChannelMember.ReadWrite.All
-   5. Channel.Create
+   User.Read.All
+   
+   **ChannelMessage.Send **
+   
+   **ChannelSettings.ReadWrite.All **
+   
+   **ChannelMember.ReadWrite.All **
+   
+   **Channel.Create **
+   
    **Note: Since we are using client credentials provider for authorization, admin has to conset for permissions behalf of user**   
 
 7. Edit appsettings.json in console project and add values for  
