@@ -4,13 +4,13 @@ This sample demonstrates using the Microsoft Graph APIs for Microsoft teams to s
 
 ## Nuget packages
 
-Microsoft.Extensions.Configuration **3.1.0**
-Microsoft.Extensions.Configuration.Binder **3.1.0**
-Microsoft.Extensions.Configuration.FileExtensions **3.1.0**
-Microsoft.Extensions.Configuration.Json  **3.1.0**
-Microsoft.Graph **3.25.0**
-Microsoft.Graph.Auth **1.0.0-preview.6**
-Microsoft.Identity.Client **Version 4.27.0**
+1. Microsoft.Extensions.Configuration **3.1.0**
+2. Microsoft.Extensions.Configuration.Binder **3.1.0**
+3. Microsoft.Extensions.Configuration.FileExtensions **3.1.0**
+4. Microsoft.Extensions.Configuration.Json  **3.1.0**
+5. Microsoft.Graph **3.25.0**
+6. Microsoft.Graph.Auth **1.0.0-preview.6**
+7. Microsoft.Identity.Client **Version 4.27.0**
 
 ## Build and run
 
