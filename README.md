@@ -2,7 +2,7 @@
 This sample demonstrates using the Microsoft Graph APIs for Microsoft teams to send notifications in private channels using Public Client App and Client Credentials Provider
 
 
-##**Nuget packages**
+## Nuget packages
 
 Microsoft.Extensions.Configuration ===> Version# 3.1.0  
 Microsoft.Extensions.Configuration.Binder ===> Version# 3.1.0  
