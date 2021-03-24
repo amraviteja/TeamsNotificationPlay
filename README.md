@@ -43,8 +43,7 @@ To run, you'll need to register your application.
    Tenant - **Tenant Ex:infsolutions.onmicrosoft.com** 
    **Add login credentials** 
    UserName - **Ex: tsaeb@gmail.com ** 
-   Passcode - **Account password**  
-   
+   Passcode - **Account password**     
 
 8. Edit ChannelStore.json file to add your private channel information. 
 
