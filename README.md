@@ -37,7 +37,15 @@ To run, you'll need to register your application.
    Channel.Create
    **Note: Since we are using client credentials provider for authorization, admin has to conset for permissions behalf of user**   
 
-7. Edit appsettings.json in console project and add in your application ID.
+7. Edit appsettings.json in console project and add values for  
+   PublicClientId - **Application (client) ID**
+   GroupId - **Microsoft Teams Group/Team ID**
+   Tenant - **Tenant Ex:infsolutions.onmicrosoft.com**
+   **Add login credentials**
+   UserName - **Ex: tsaeb@gmail.com **
+   Passcode - **Account password**
+  
+   
 
 8. Edit ChannelStore.json file to add your private channel information. 
 
