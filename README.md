@@ -26,12 +26,20 @@ To run, you'll need to register your application.
 
 5. Navigate to the **Authentication** page.
    Under **Advanced settings**, find the **Allow public client flows** section. 
-   Set **Enable the following mobile and desktop flows:**  to **Yes**.
+   Set **Enable the following mobile and desktop flows**  to **Yes**.
    Choose **Save** at the top.
+6. Under **Manage** on the left-hand pane, click **API permissions** and then **Add a new permission**. Select **Microsoft Graph** and then **Delegated permissions**.
+   Add following permissions
+   User.Read.All
+   ChannelMessage.Send
+   ChannelSettings.ReadWrite.All
+   ChannelMember.ReadWrite.All
+   Channel.Create
+   **Note: Since we are using client credentials provider for authorization, admin has to conset for permissions behalf of user**   
 
-6. Edit appsettings.json in console project and add in your application ID.
+7. Edit appsettings.json in console project and add in your application ID.
 
-7. Edit ChannelStore.json file to add your private channel information. 
+8. Edit ChannelStore.json file to add your private channel information. 
 
 
 
