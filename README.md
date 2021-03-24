@@ -30,19 +30,24 @@ To run, you'll need to register your application.
    Choose **Save** at the top.
 6. Under **Manage** on the left-hand pane, click **API permissions** and then **Add a new permission**. Select **Microsoft Graph** and then **Delegated permissions**.
    Add following permissions
-   User.Read.All
-   ChannelMessage.Send
-   ChannelSettings.ReadWrite.All
-   ChannelMember.ReadWrite.All
-   Channel.Create
+   1. User.Read.All
+   2. ChannelMessage.Send
+   3. ChannelSettings.ReadWrite.All
+   4. ChannelMember.ReadWrite.All
+   5. Channel.Create
    **Note: Since we are using client credentials provider for authorization, admin has to conset for permissions behalf of user**   
 
 7. Edit appsettings.json in console project and add values for  
    PublicClientId - **Application (client) ID** 
+   
    GroupId - **Microsoft Teams Group/Team ID** 
+   
    Tenant - **Tenant Ex:infsolutions.onmicrosoft.com** 
+   
    **Add login credentials** 
+   
    UserName - **Ex: tsaeb@gmail.com ** 
+   
    Passcode - **Account password**     
 
 8. Edit ChannelStore.json file to add your private channel information. 
